@@ -4,9 +4,12 @@
 Simple application for creating todo-lists and tobuy-lists with the option to connect multiple users to a list.
 
 
-#TODO
+#
+TODO
 
-##Native stuff
+##
+Native stuff
 
 
-##Backend API stuff
+##
+Backend API stuff
