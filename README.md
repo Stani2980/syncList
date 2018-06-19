@@ -19,6 +19,7 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 - Add item function (simple api changes needed for test)
 - Clear list (with "are you sure? yes/no" popup, never remove the data but flip flag to removed)
 - Remove checked items (same as above)
+- Style it !!
 
 (later development)
 - Create new list
@@ -27,6 +28,7 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 
 ###### Sharelist component
 - Add user to lists
+- Style it !!
 
 (later development)
 - Search user
@@ -37,6 +39,7 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 - Use List component to show users attached to chosen list
 - Remove user function ("sure?" yes/no)
 - Add user by username
+- Style it !!
 
 ###### Main page component
 - Side menu on left side for icons (drawer menu)
@@ -44,5 +47,6 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 - "tobuy" component
 - "sharelist" component
 - "weather check" component (optional and for fun only)
+- Style it !!
 
 #### Backend API stuff
