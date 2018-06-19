@@ -1,14 +1,16 @@
 # SyncList application
 
-###
+####
 Simple application for creating todo-lists and tobuy-lists with the option to connect multiple users to a list.
 
 
-# TODO
+## TODO
 
-###
-## Native stuff
+### Native stuff
+- Simple list item with :
 
+    - delete
+    - edit
+    - check/uncheck
 
-###
-## Backend API stuff
+#### Backend API stuff

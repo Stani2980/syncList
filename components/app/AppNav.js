@@ -12,7 +12,6 @@ const StackNav = StackNavigator({
     screen: HomeScreen
   },
 
-
 }
 );
 

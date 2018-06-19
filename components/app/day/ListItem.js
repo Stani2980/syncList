@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableHighlight, } from 'react-native';
+import { View, Text, TouchableHighlight, StyleSheet } from 'react-native';
 import Swipeable from 'react-native-swipeable';
 
 //TODO: add functionality to rendered buttons.
@@ -13,7 +13,7 @@ const rightButtons = [
 
 function MyListItem() {
     return (
-        <Swipeable leftContent={leftContent} rightButtons={rightButtons}>
+        <Swipeable style={styles.swipeableWhole} leftContent={leftContent} rightButtons={rightButtons}>
             <Text>My swipeable content</Text>
         </Swipeable>
     );
@@ -28,3 +28,10 @@ export default class ListItem extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    swipeableWhole : {
+        height : 40,
+        backgroundColor : "blue",
+    }
+});

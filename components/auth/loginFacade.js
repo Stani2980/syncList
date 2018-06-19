@@ -1,5 +1,5 @@
 import { AsyncStorage } from 'react-native';
-import { handleHttpErrors, makeFetchOptions } from '../../api/fetchReduce';
+import { handleHttpErrors, makeFetchOptions } from '../../httpRequest/fetchReduce';
 
 const URL = require("../../package.json").config.url;
 
@@ -31,13 +31,12 @@ class ApiFacade {
         this.setToken(res.token)
       })
       .catch(function (error) {
-        console.log('There has been a problem with your fetch operation: ' + error.message);
+        console.log('ERROR : There has been a problem with your fetch operation: ' + error.message);
         // ADD THIS THROW error
         return error.message;
       });
-
   }
-
 }
+
 const facade = new ApiFacade();
 export default facade;
