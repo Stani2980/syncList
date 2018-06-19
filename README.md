@@ -26,8 +26,10 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 - Change current list
 - Remove list
 
-###### Sharelist component
-- Add user to lists
+###### Sharelist component (CRUD for diffrent lists)
+- Show lists
+- Filter by type(todo/tobuy) two tabs on top to switch between
+- Add UsersOnList component
 - Style it !!
 
 (later development)
@@ -35,8 +37,8 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 - Add user to chosen list
 - Remove user from list
 
-###### Users on synchronized list component
-- Use List component to show users attached to chosen list
+###### UsersOnList component
+- Use List component to show users attached to chosen list (if can do)
 - Remove user function ("sure?" yes/no)
 - Add user by username
 - Style it !!
