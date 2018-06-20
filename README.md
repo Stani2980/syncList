@@ -23,8 +23,8 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
 - Add item function (simple api changes needed for test)
 - Clear list (with "are you sure? yes/no" popup, never remove the data but flip flag to removed)
 - Remove checked items (same as above)
+- Add quantity to tobuy list (piece / weight / Litres)
 - Style it !!
-
 
 ###### (Later development) Sharelist component (CRUD for diffrent lists)
 - Show lists
@@ -61,6 +61,8 @@ Application for creating todo-lists and tobuy-lists with the option to connect m
     - password
     - delete account
     - (more) ?
+    - logout
+
 - style it!
 ###### Create user comp
 - input fields for :
